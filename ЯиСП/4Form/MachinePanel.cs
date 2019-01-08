@@ -11,9 +11,9 @@ namespace _4Form
 {
     public class MachinePanel
     {
-        Image gazel = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\gazel.png");
-        Image kamaz = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\kamaz.png");
-        Image repair = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\repair.png");
+        Image gazel = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\gazel.png");
+        Image kamaz = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\kamaz.png");
+        Image repair = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\repair.png");
         CarStation CarStation { get; set; }
         Panel panel;
         Dictionary<IEquipment, PictureBox> keyValuePairs = new Dictionary<IEquipment, PictureBox>();
