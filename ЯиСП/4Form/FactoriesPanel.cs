@@ -15,9 +15,9 @@ namespace _4Form
         public Panel MainPanel { get; set; }
         public List<System.Threading.Thread> threads { get; private set; }
         public List<Factory> Factories { get; private set; }
-        Image fctN = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\plant.jpg");
-        Image fctC = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\plant1.jpg");
-        Image fctCK = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\bin\\Debug\\plant_s.png");
+        Image fctN = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\plant.jpg");
+        Image fctC = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\plant1.jpg");
+        Image fctCK = Image.FromFile("C:\\Users\\Asus\\Desktop\\ЯиСП\\4Form\\Properties\\plant_s.png");
         CarStation CarStation;
         public Dictionary<Factory, PictureBox> keyValuePairs = new Dictionary<Factory, PictureBox>();
         public FactoriesPanel(Panel panel, CarStation carStation)
